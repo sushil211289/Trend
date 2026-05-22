@@ -9,7 +9,8 @@ pipeline {
 
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/sushil211289/Trend.git'
+		git branch: 'main',
+                url: 'https://github.com/sushil211289/Trend.git'
             }
         }
 
