@@ -1,0 +1,15 @@
+# Terraform
+.terraform/
+terraform/.terraform/
+*.tfstate
+*.tfstate.*
+
+# AWS CLI extracted files
+terraform/aws/
+terraform/awscliv2.zip
+
+# Terraform provider binaries
+terraform/providers/
+
+# OS
+.DS_Store
